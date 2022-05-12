@@ -17,7 +17,7 @@ namespace ClassLibrary1
 
         public EKGData(double ekg)
         {
-            EKG = ekg;
+            EKG = ekg;  
         }
 
         public List<EKGData> getEKGData()

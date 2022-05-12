@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectName": "ClassLibrary1",
+        "projectPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+        "projectName": "EKG_semesterprojekt",
+        "projectPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+        "packagesPath": "C:\\Users\\dagma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\dagma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {
+              "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
+                "projectPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "LiveCharts.Wpf.Core": {
+              "target": "Package",
+              "version": "[0.9.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
+        "projectName": "Logic_tier",
+        "projectPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    }
+  }
+}

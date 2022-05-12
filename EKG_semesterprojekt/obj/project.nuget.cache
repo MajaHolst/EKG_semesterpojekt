@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "D0WxXbC+zV4SS2ndCuXKwkeueFEeNUSrHuqwJ20EA/pBq+1RGeb+7HelSmRhahyd2zBKRws3LC6cwbVsSDwAQA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dagma\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dagma\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
+    "C:\\Users\\dagma\\.nuget\\packages\\livecharts.wpf.core\\0.9.8\\livecharts.wpf.core.0.9.8.nupkg.sha512"
+  ],
+  "logs": []
+}
