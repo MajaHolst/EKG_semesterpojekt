@@ -1,0 +1,20 @@
+﻿<Window x:Class="EKG_semesterprojekt.GrafWindow"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EKG_semesterprojekt"
+        mc:Ignorable="d"
+        Title="GrafWindow" Height="450" Width="800">
+    <Grid>
+        <lvc:CartesianChart Name="Chart1" LegendLocation="Right" Margin="0,77,40,0">
+            <lvc:CartesianChart.Series>
+                <lvc:LineSeries Name="Line1" Title="EKG-måling" Values="{Binding YValues}"/>
+            </lvc:CartesianChart.Series>
+        </lvc:CartesianChart>
+        <Button x:Name="offDiagnoseBT" Content="Offentliggør diagnose" HorizontalAlignment="Left" Margin="507,26,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Times New Roman" Click="offDiagnoseBT_Click"/>
+        <TextBox x:Name="CPRTB" HorizontalAlignment="Left" Margin="30,26,0,0" Text="012345-6789" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontSize="24" FontFamily="Times New Roman"/>
+        <Button x:Name="diagnoseBT" Content="Stil diagnose" HorizontalAlignment="Left" Margin="273,25,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Times New Roman" Click="offDiagnoseBT_Click"/>
+    </Grid>
+</Window>
