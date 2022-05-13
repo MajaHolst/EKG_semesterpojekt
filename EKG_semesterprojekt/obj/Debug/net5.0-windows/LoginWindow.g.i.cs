@@ -10,7 +10,6 @@
 //------------------------------------------------------------------------------
 
 using EKG_semesterprojekt;
-using LiveCharts.Wpf;
 using System;
 using System.Diagnostics;
 using System.Windows;
