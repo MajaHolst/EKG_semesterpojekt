@@ -1,5 +1,5 @@
 ﻿EKG_semesterprojekt
-
+1.0.0.0
 
 winexe
 C#
@@ -12,7 +12,7 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\norho\Source\Repos\EKG_semesterpojekt\EKG_semesterprojekt\App.xaml
 31480408138
 
-6-1623117667
+8-168470916
 198-863730870
 GrafWindow.xaml;LoginWindow.xaml;MainWindow.xaml;
 

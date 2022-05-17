@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\norho\Source\Repos\EKG_semesterpojekt\EKG_semesterprojekt\obj\Debug\net5.0-windows\
+C:\Users\norho\Source\Repos\EKG_semesterpojekt\EKG_semesterprojekt\obj\Release\net5.0-windows\
 EKG_semesterprojekt
 none
 false
-TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+TRACE;RELEASE;NET;NET5_0;NETCOREAPP
 C:\Users\norho\Source\Repos\EKG_semesterpojekt\EKG_semesterprojekt\App.xaml
 31480408138
 
 6-1623117667
-198-863730870
+198-1317523951
 GrafWindow.xaml;LoginWindow.xaml;MainWindow.xaml;
 
 True

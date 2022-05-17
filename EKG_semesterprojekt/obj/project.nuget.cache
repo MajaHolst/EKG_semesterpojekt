@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "F8ExHqu4ch/ApCMpFO/vGlwmwWa/4nwY37Oicc6AwKwdeaWnVlqcesqmEkB2q45OCY3gRP9KdSRZY4moVv+8pQ==",
+  "dgSpecHash": "sNwtQBqvndbGReeLI5n61Enq6b0uOwtMHZ4MQn8uSu8HWcrUdMEA3baPk2oDkM+gqzwCPKpSJXr0F5fRrs4JJg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+  "projectFilePath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\majah\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
-    "C:\\Users\\majah\\.nuget\\packages\\livecharts.wpf.core\\0.9.8\\livecharts.wpf.core.0.9.8.nupkg.sha512"
+    "C:\\Users\\norho\\.nuget\\packages\\livecharts.core\\0.9.8\\livecharts.core.0.9.8.nupkg.sha512",
+    "C:\\Users\\norho\\.nuget\\packages\\livecharts.wpf.core\\0.9.8\\livecharts.wpf.core.0.9.8.nupkg.sha512"
   ],
   "logs": []
 }
