@@ -39,6 +39,7 @@ namespace ClassLibrary1
             reader.Close();
             return _EKGliste;
         }
+        // tilføj
     }
 
 }

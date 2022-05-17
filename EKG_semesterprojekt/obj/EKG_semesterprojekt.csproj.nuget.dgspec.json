@@ -1,14 +1,14 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {}
+    "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {}
   },
   "projects": {
-    "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
+    "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectUniqueName": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj",
         "projectName": "ClassLibrary1",
-        "projectPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj",
+        "projectPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {}
@@ -19,17 +19,17 @@
         "net472": {}
       }
     },
-    "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {
+    "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+        "projectUniqueName": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
         "projectName": "EKG_semesterprojekt",
-        "projectPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
-        "packagesPath": "C:\\Users\\majah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\EKG_semesterprojekt\\obj\\",
+        "projectPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\EKG_semesterprojekt.csproj",
+        "packagesPath": "C:\\Users\\norho\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\EKG_semesterprojekt\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\majah\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\norho\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -43,8 +43,8 @@
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
-                "projectPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj"
+              "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
+                "projectPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj"
               }
             }
           }
@@ -82,20 +82,20 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.408\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
+    "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj": {
       "restore": {
-        "projectUniqueName": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
+        "projectUniqueName": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
         "projectName": "Logic_tier",
-        "projectPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
+        "projectPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\Logic_tier\\Logic_tier.csproj",
         "frameworks": {
           "net472": {
             "projectReferences": {
-              "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
-                "projectPath": "C:\\Users\\majah\\OneDrive\\Dokumenter\\GitHub\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj"
+              "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj": {
+                "projectPath": "C:\\Users\\norho\\Source\\Repos\\EKG_semesterpojekt\\ClassLibrary1\\ClassLibrary1.csproj"
               }
             }
           }
