@@ -19,6 +19,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using LiveCharts.Wpf;
 using LiveCharts;
+using Logic;
 
 namespace EKG_semesterprojekt
 {
@@ -29,24 +30,29 @@ namespace EKG_semesterprojekt
     {
         private GrafWindow grafWindow;
         private LoginWindow loginWindow;
+        private LogicClass logicRef;
+        private int Id { get; set; }
+        
 
         public MainWindow()
         {
             InitializeComponent();
-            loginWindow = new LoginWindow();
-
+            //loginWindow = new LoginWindow();
+            logicRef = new LogicClass();
+            //grafWindow = new GrafWindow(logicRef);
         }
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             Hide();
-            loginWindow.ShowDialog();
+            //loginWindow.ShowDialog();
+            grafWindow.ShowDialog();
 
         }
 
         private void AnalyserDataBT_Click(object sender, RoutedEventArgs e)
         {
-            grafWindow = new GrafWindow();
+            grafWindow = new GrafWindow(logicRef, Id);
             grafWindow.ShowDialog();
         }
     }

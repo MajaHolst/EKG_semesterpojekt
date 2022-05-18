@@ -1,0 +1,2 @@
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic_tier\obj\Debug\Logic_tier.csproj.AssemblyReference.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic_tier\obj\Debug\Logic_tier.csproj.CoreCompileInputs.cache

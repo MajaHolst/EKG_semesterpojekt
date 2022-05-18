@@ -11,10 +11,10 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Data_tier;
 using LiveCharts.Wpf;
 using LiveCharts;
-using Logic_tier2;
-using Logic_tier;
+using Logic;
 
 namespace EKG_semesterprojekt
 {
@@ -24,25 +24,54 @@ namespace EKG_semesterprojekt
     public partial class GrafWindow : Window
     {
         private LogicClass _logic;
-        public ChartValues<double> YValues { get; set; }
+        //public ChartValues<DataBase> YValues { get; set; }
+        public SeriesCollection Data { get; set; }
+        public string[] Xakse { get; set; }
+        public Func<double, string> Yakse { get; set; }
 
-        public GrafWindow()
+        public GrafWindow(LogicClass logic, int id)
         {
-
             InitializeComponent();
-            _logic = new LogicClass();
-            YValues = new ChartValues<double>();
+            _logic = logic;
+            //YValues = new ChartValues<DataBase>();
 
-        }
+            List<EKGData> ekgData = logic.GetDataBases(id);
+            ChartValues<double> ekg = new ChartValues<double>();
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-            foreach (var item in _logic.getEKGData1())
+            List<string> ekgDates = new List<string>();
+
+            foreach (var item in ekgData)
             {
-                YValues.Add(item.EKG);
+                ekg.Add(item.EKG);
+                //ekgDates.Add(item.Date.ToString("d.MM").ToUpper());
             }
+
+            Data = new SeriesCollection
+            {
+                new LineSeries
+                {
+                    Values = ekg,
+                    Fill = Brushes.Transparent,
+                    Title = "EKG fra Physionet",
+                },
+
+            };
+            Xakse = ekgDates.ToArray();
+            Yakse = value => value.ToString("0.0");
             DataContext = this;
+
         }
+
+       
+
+        //private void Window_Loaded(object sender, RoutedEventArgs e)
+        //{
+        //    foreach (var item in _logic.GetDataBases())
+        //    {
+        //        YValues.Add(item.GetEKGData());
+        //    }
+        //    DataContext = this;
+        //}
 
         private void offDiagnoseBT_Click(object sender, RoutedEventArgs e)
         {

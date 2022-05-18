@@ -1,0 +1,12 @@
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\bin\Debug\net5.0\Data_tier.deps.json
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\bin\Debug\net5.0\Data_tier.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\bin\Debug\net5.0\ref\Data_tier.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\bin\Debug\net5.0\Data_tier.pdb
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.csproj.AssemblyReference.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.AssemblyInfoInputs.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.AssemblyInfo.cs
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.csproj.CoreCompileInputs.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\ref\Data_tier.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Data_tier\obj\Debug\net5.0\Data_tier.pdb

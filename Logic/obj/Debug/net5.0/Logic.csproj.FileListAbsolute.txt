@@ -1,0 +1,15 @@
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\Logic.deps.json
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\Logic.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\ref\Logic.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\Logic.pdb
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\Data_tier.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\bin\Debug\net5.0\Data_tier.pdb
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.csproj.AssemblyReference.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.AssemblyInfoInputs.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.AssemblyInfo.cs
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.csproj.CoreCompileInputs.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.csproj.CopyComplete
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\ref\Logic.dll
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\Logic\obj\Debug\net5.0\Logic.pdb

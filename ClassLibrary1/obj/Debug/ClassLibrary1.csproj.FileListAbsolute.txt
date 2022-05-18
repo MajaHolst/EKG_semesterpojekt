@@ -1,0 +1,2 @@
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+C:\Users\majah\OneDrive\Dokumenter\GitHub\EKG_semesterpojekt\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
