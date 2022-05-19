@@ -20,33 +20,32 @@ namespace Data_tier
                 con.Open();
                 return con;
             }
-
         }
 
         public DataBase()
         {
         }
 
-        public List<EKGData> GetEKGData1()
-        {
-            command = new SqlCommand("select * from dbo.PhysionNet");
-            List<EKGData> ekgData = new List<EKGData>();
-            Connection.Open();
-            command = new SqlCommand("select * from dbo.PhysionNet where PNID='");
-            reader = command.ExecuteReader();
-            while (reader.Read())
-            {
-                ekgData.Add(new EKGData((double)reader["PNData"]));
-            }
-            Connection.Close();
-            return ekgData;
-        }
+        //public List<EKGData> GetEKGData1()
+        //{
+        //    command = new SqlCommand("select * from dbo.PhysionNet");
+        //    List<EKGData> ekgData = new List<EKGData>();
+        //    Connection.Open();
+        //    command = new SqlCommand("select * from dbo.PhysionNet where PNID='");
+        //    reader = command.ExecuteReader();
+        //    while (reader.Read())
+        //    {
+        //        ekgData.Add(new EKGData((double)reader["PNData"]));
+        //    }
+        //    Connection.Close();
+        //    return ekgData;
+        //}
 
         public List<EKGData> GetEkgData(int id)
         {
             List<EKGData> ekgList = new List<EKGData>();
 
-            string selectString = "select*from dbo.Physionet where PNID='" + id + "'";
+            string selectString = "select*from dbo.PhysioNet where PNID='" + 1 + "'";
 
             using (SqlCommand command = new SqlCommand(selectString, Connection))
             {
@@ -54,7 +53,7 @@ namespace Data_tier
             }
             while (reader.Read())
             {
-                ekgList.Add(new EKGData(Convert.ToDouble(reader["total"])));
+                //ekgList.Add(new EKGData(Convert.(reader["PNData"])));
             }
 
             return ekgList;

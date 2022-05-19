@@ -14,7 +14,7 @@ namespace Data_tier
         private StreamReader reader;
 
         public double EKG { get; set; }
-        public DateTime Date { get; set; }
+        //public DateTime Date { get; set; }
 
         public EKGData(double ekg)
         {

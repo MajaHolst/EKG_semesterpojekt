@@ -56,7 +56,7 @@ namespace EKG_semesterprojekt
                 },
 
             };
-            Xakse = ekgDates.ToArray();
+            //Xakse = ekgDates.ToArray();
             Yakse = value => value.ToString("0.0");
             DataContext = this;
 
