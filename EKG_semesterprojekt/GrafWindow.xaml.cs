@@ -39,10 +39,10 @@ namespace EKG_semesterprojekt
             ChartValues<double> ekg = new ChartValues<double>();
 
             List<string> ekgDates = new List<string>();
-
             foreach (var item in ekgData)
             {
                 ekg.Add(item.EKG);
+                DataContext = this;
                 //ekgDates.Add(item.Date.ToString("d.MM").ToUpper());
             }
 

@@ -27,7 +27,7 @@ namespace Logic
 
         public List<EKGData> GetDataBases(int id)
         {
-            return _dataObject.GetEkgData(id);
+            return _dataObject.GetEKGData();
         }
     }
 }
