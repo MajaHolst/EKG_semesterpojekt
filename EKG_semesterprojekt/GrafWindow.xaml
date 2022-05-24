@@ -15,6 +15,6 @@
         </lvc:CartesianChart>
         <Button x:Name="offDiagnoseBT" Content="Offentliggør diagnose" HorizontalAlignment="Left" Margin="507,26,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Times New Roman" Click="offDiagnoseBT_Click"/>
         <TextBox x:Name="CPRTB" HorizontalAlignment="Left" Margin="30,26,0,0" Text="012345-6789" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" FontSize="24" FontFamily="Times New Roman"/>
-        <Button x:Name="diagnoseBT" Content="Stil diagnose" HorizontalAlignment="Left" Margin="273,25,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Times New Roman" Click="offDiagnoseBT_Click"/>
+        <Button x:Name="analyseBT" Content="Analyser data" HorizontalAlignment="Left" Margin="273,25,0,0" VerticalAlignment="Top" FontSize="24" FontFamily="Times New Roman" Click="analyseBT_Click"/>
     </Grid>
 </Window>

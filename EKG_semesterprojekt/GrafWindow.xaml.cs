@@ -24,56 +24,69 @@ namespace EKG_semesterprojekt
     public partial class GrafWindow : Window
     {
         private LogicClass _logic;
-        //public ChartValues<DataBase> YValues { get; set; }
+        public ChartValues<double> YValues { get; set; }
         public SeriesCollection Data { get; set; }
         public string[] Xakse { get; set; }
         public Func<double, string> Yakse { get; set; }
 
-        public GrafWindow(LogicClass logic, int id)
+        public GrafWindow()
         {
             InitializeComponent();
-            _logic = logic;
-            //YValues = new ChartValues<DataBase>();
-
-            List<EKGData> ekgData = logic.GetDataBases(id);
-            ChartValues<double> ekg = new ChartValues<double>();
-
-            List<string> ekgDates = new List<string>();
-            foreach (var item in ekgData)
-            {
-                ekg.Add(item.EKG);
-                DataContext = this;
-                //ekgDates.Add(item.Date.ToString("d.MM").ToUpper());
-            }
-
-            Data = new SeriesCollection
-            {
-                new LineSeries
-                {
-                    Values = ekg,
-                    Fill = Brushes.Transparent,
-                    Title = "EKG fra Physionet",
-                },
-
-            };
-            //Xakse = ekgDates.ToArray();
-            Yakse = value => value.ToString("0.0");
-            DataContext = this;
+            _logic = new LogicClass();
+            YValues = new ChartValues<double>();
 
         }
 
-       
-
-        //private void Window_Loaded(object sender, RoutedEventArgs e)
+        //public GrafWindow(LogicClass logic, int id)
         //{
-        //    foreach (var item in _logic.GetDataBases())
+        //    InitializeComponent();
+        //    _logic = logic;
+        //    //YValues = new ChartValues<DataBase>();
+
+        //    List<EKGData> ekgData = logic.GetDataBases(id);
+        //    ChartValues<double> ekg = new ChartValues<double>();
+
+        //    List<string> ekgDates = new List<string>();
+        //    foreach (var item in ekgData)
         //    {
-        //        YValues.Add(item.GetEKGData());
+        //        ekg.Add(item.EKG);
+        //        DataContext = this;
+        //        ekgDates.Add(item.Date.ToString("d.MM").ToUpper());
         //    }
+
+        //    Data = new SeriesCollection
+        //    {
+        //        new LineSeries
+        //        {
+        //            Values = ekg,
+        //            Fill = Brushes.Transparent,
+        //            Title = "EKG fra Physionet",
+        //        },
+
+        //    };
+        //    Xakse = ekgDates.ToArray();
+        //    Yakse = value => value.ToString("0.0");
         //    DataContext = this;
+
         //}
 
+
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            foreach (var item in _logic.getEKGData())
+            {
+                YValues.Add(item.EKG);
+            }
+            DataContext = this;
+        }
+
         private void offDiagnoseBT_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void analyseBT_Click(object sender, RoutedEventArgs e)
         {
 
         }

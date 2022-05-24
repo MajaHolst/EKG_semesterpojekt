@@ -14,7 +14,7 @@ namespace Data_tier
         private StreamReader reader;
 
         public double EKG { get; set; }
-        //public DateTime Date { get; set; }
+        public DateTime Date { get; set; }
 
         public EKGData(double ekg)
         {
@@ -24,7 +24,7 @@ namespace Data_tier
         public List<EKGData> GetEKGData()
         {
             List<EKGData> _EKGliste = new List<EKGData>();
-            input = new FileStream("EKG-signal-fra-physionet-AFIB.txt", FileMode.Open, FileAccess.Read);
+            input = new FileStream("normal-sinusrytme.txt", FileMode.Open, FileAccess.Read);
             reader = new StreamReader(input);
             string inputRecord;
             string[] inputFields;
@@ -40,7 +40,9 @@ namespace Data_tier
             reader.Close();
             return _EKGliste;
         }
-        
+
+
+
     }
 
 }

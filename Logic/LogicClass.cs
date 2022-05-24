@@ -8,26 +8,26 @@ namespace Logic
 {
     public class LogicClass
     {
-        //private EKGData _ekgData = new EKGData();
+        private EKGData _ekgData = new EKGData();
 
-        //public List<EKGData> getEKGData()
-        //{
-        //    return _ekgData.getEKGData();
-        //}
+        public List<EKGData> getEKGData()
+        {
+            return _ekgData.GetEKGData();
+        }
 
         // ændret til database
 
-        private DataBase _dataObject;
-        
+        //private EKGData _dataObject;
 
-        public LogicClass()
-        {
-            _dataObject = new DataBase();
-        }
 
-        public List<EKGData> GetDataBases(int id)
-        {
-            return _dataObject.GetEKGData();
-        }
+        //public LogicClass()
+        //{
+        //    _dataObject = new EKGData();
+        //}
+
+        //public List<EKGData> GetDataBases(int id)
+        //{
+        //    return _dataObject.GetEKGData();
+        //}
     }
 }

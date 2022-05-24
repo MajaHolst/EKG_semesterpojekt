@@ -52,7 +52,7 @@ namespace EKG_semesterprojekt
 
         private void AnalyserDataBT_Click(object sender, RoutedEventArgs e)
         {
-            grafWindow = new GrafWindow(logicRef, Id);
+            grafWindow = new GrafWindow();
             grafWindow.ShowDialog();
         }
     }

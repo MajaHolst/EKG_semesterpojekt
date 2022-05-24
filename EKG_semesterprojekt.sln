@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data_tier", "Data_tier\Data
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "Logic\Logic.csproj", "{6FA8C622-9F0A-4104-9E81-9607E98DE41F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EKGDATA_NAMESPACE", "EKGDATA_NAMESPACE\EKGDATA_NAMESPACE.csproj", "{EF541648-7B1E-4157-9E3D-0320B9660542}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IndpakData", "IndpakData\IndpakData.csproj", "{207DE75B-ACA4-48A0-A62F-E5F1E24926D3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{6FA8C622-9F0A-4104-9E81-9607E98DE41F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FA8C622-9F0A-4104-9E81-9607E98DE41F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FA8C622-9F0A-4104-9E81-9607E98DE41F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EF541648-7B1E-4157-9E3D-0320B9660542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EF541648-7B1E-4157-9E3D-0320B9660542}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EF541648-7B1E-4157-9E3D-0320B9660542}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EF541648-7B1E-4157-9E3D-0320B9660542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{207DE75B-ACA4-48A0-A62F-E5F1E24926D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{207DE75B-ACA4-48A0-A62F-E5F1E24926D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{207DE75B-ACA4-48A0-A62F-E5F1E24926D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{207DE75B-ACA4-48A0-A62F-E5F1E24926D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
