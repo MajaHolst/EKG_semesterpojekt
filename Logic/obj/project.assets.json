@@ -468,7 +468,8 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "Data_tier >= 1.0.0"
+      "Data_tier >= 1.0.0",
+      "System.Data.SqlClient >= 4.8.3"
     ]
   },
   "packageFolders": {
@@ -513,6 +514,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "System.Data.SqlClient": {
+            "target": "Package",
+            "version": "[4.8.3, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
